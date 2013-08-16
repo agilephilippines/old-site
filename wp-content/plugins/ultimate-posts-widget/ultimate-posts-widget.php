@@ -171,11 +171,11 @@ if ( !class_exists( 'WP_Widget_Ultimate_Posts' ) ) {
 						<div class="upw-content">
 
 							<?php if ( get_the_title() && $instance['show_title'] ) : ?>
-								<p class="post-title">
+								<h4 class="post-title">
 									<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( get_the_title() ? get_the_title() : get_the_ID() ); ?>">
 										<?php the_title(); ?>
 									</a>
-								</p>
+								</h4>
 							<?php endif; ?>
 
 							<?php if ( $instance['show_date'] || $instance['show_time'] ) : ?>
