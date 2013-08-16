@@ -1,0 +1,224 @@
+.fts-yt-videolist li img {
+	max-width: 100%; /* Fluid images for posts, comments, and widgets */
+}
+iframe {
+	width: 100%;
+}
+.fts-yt-large .fts-yt-first-video iframe, .fts-yt-vids-in-row1 li iframe {
+	width: 100%;
+	min-height: 300px !important;
+	max-height: 500px !important;
+	padding: 0;
+	margin:0;
+}
+.widget .fts-yt-large .fts-yt-first-video iframe, .widget .fts-yt-vids-in-row1 li iframe {
+	width: 100%;
+	height:50% !important; 
+	min-height:160px !important;
+	max-height:160px !important;  
+	padding: 0;
+	
+}
+#secondary .front-widgets .fts-yt-large iframe {
+    height:100% !important;
+	max-height:300px !important; 
+	min-height:300px !important;
+}
+.widget .fts-yt-videolist ul li {
+     margin-bottom: 0px !important;  
+     list-style:none !important;
+}
+.fts-yt-videolist ul {
+	margin: 0 !important;
+	padding: 0 !important;
+	width:100% !important;
+}
+.fts-yt-videolist ul li {
+	list-style: none;
+}
+.fts-yt-vids-in-row1 ul li {
+     margin:0;
+     padding:0;   
+}
+.fts-yt-vids-in-row2 li, .fts-yt-vids-in-row3 li, .fts-yt-vids-in-row4 li {
+	width: 100%;
+	float: left;
+	margin-right: 0% !important;
+	border: none;
+	position: relative;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.fts-yt-vids-in-row1 li {
+	width: 100% !important;
+	margin-bottom:5%;
+}
+.fts-yt-vids-in-row1 li .entriestitle {
+ display:none;   
+}
+.fts-yt-vids-in-row1 li iframe {
+	width: 100%;
+}
+.fts-yt-vids-in-row2 li {
+	width: 48% !important;
+	padding: 1% !important;
+	margin:0 !important;
+}
+.fts-yt-vids-in-row3 li {
+	width: 31.3% !important;
+	padding: 1% !important;
+	margin:0 !important;
+}
+.fts-yt-vids-in-row4 li {
+	width: 23% !important;
+	padding: 1% !important;
+	margin:0 !important;
+}
+.fts-yt-vids-in-row2 li .entriestitle, .fts-yt-vids-in-row3 li .entriestitle, .fts-yt-vids-in-row4 li .entriestitle {
+	padding: 0 5px;
+	position: absolute;
+	left: 0%;
+	top: 20%;
+	opacity: 0;
+	width: 87.5%;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.entriestitle {
+	pointer-events: none;
+}
+.fts-yt-vids-in-row4 li .entriestitle {
+	font-size:85% !important;
+	line-height:100% !important;
+
+	pointer-events: none;
+}
+.fts-yt-vids-in-row3 li .entriestitle {
+	font-size:85% !important;
+	line-height:100% !important;
+}
+.fts-yt-vids-in-row2 li:hover .entriestitle, .fts-yt-vids-in-row3 li:hover .entriestitle, .fts-yt-vids-in-row4 li:hover .entriestitle {
+	background: #000;
+	border-radius: 0px;
+	color: #FFF;
+	padding: 5% 6%;
+	opacity: .9;
+	z-index: 100;
+	right: 0;
+	line-height: 18px;
+	font-size: 90%;
+	font-weight: bold;
+	box-shadow: 0 4px 8px #333;
+	display: block;
+}
+.fts-yt-vids-in-row2 li:hover, .fts-yt-vids-in-row3 li:hover, .fts-yt-vids-in-row4 li:hover {
+	background-color: rgba(0,0,0,0.9);
+	box-shadow: 0 1px 10px #333;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	transition: all 0.30s ease-in-out;
+}
+/*** pop-up div to cover entire area ***/
+.fts-yt-overlay-wrap {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	z-index:-1 !important;
+	/* last attribute set darkness on scale: 0...1.0 */
+	background-color: rgba(0,0,0,0.75);
+	text-align: center;
+	z-index: 100;
+	-webkit-transition: opacity .2s ease-out;
+	-moz-transition: opacity .2s ease-out;
+	transition: opacity .2s ease-out;
+	pointer-events: none;
+	box-shadow:0 2px 500px #000;
+}
+/*** ! target attribute does the job ! ***/
+.fts-yt-overlay-wrap:target {
+	display: block;
+	opacity: 1;
+	z-index: 200 !important;
+	-webkit-transition: opacity .5s ease-in;
+	-moz-transition: opacity .5ss ease-in;
+	transition: opacity .5s ease-in;
+	pointer-events: auto;
+}
+.fts-yt-overlay {
+	max-width: 570px;
+	opacity: 1;
+	z-index: 300;
+	position: relative;
+	padding:10px;
+	background: #666;
+	margin: 70px auto -10px auto;
+	box-shadow:0 2px 200px #000;
+}
+.fts-yt-overlay-wrap iframe {
+    margin:0;	 
+	min-height: 350px;
+	background:#000 !important;
+	margin-bottom:0px !important;
+}
+.fts-yt-popup-close {
+	display: block;
+	position: absolute;
+	top: -19px;
+	right: 0px;
+	background:#666;
+	color:#FFF !important;
+	text-decoration:none;
+	font-size:85%;
+	font-weight:bold;
+	padding:.5% 2.5% 0 2.5%;
+	line-height:17px;
+}
+.widget .fts-yt-first-video p {
+     font-size:12px !important;  
+     margin-bottom:10px !important;
+     margin-top:5px;
+}
+.widget .fts-yt-videolist li {
+     margin:0px !important;
+     line-height:0px !important;   
+}
+.widget .fts-yt-videolist ul {
+     padding-bottom:45px !important;  
+     float:left; 
+}
+.fts-yt-first-video h2 {
+     margin-bottom:7px !important;   
+}
+.fts-yt-vids-in-row1 ul li iframe {
+     margin-bottom:12px !important;   
+}
+@keyframes fade {
+ from {
+opacity: 1.0;
+}
+ 50% {
+opacity: 0.5;
+}
+to {
+	opacity: 1.0;
+}
+}
+ @-webkit-keyframes fade {
+ from {
+opacity: 1.0;
+}
+ 50% {
+opacity: 0.5;
+}
+to {
+	opacity: 1.0;
+}
+}

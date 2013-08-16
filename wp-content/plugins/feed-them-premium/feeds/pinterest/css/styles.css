@@ -1,0 +1,147 @@
+a.fts-pin-board-wrap {
+	width: 225px;	
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	transition: all 0.30s ease-in-out;
+	-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+-moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+background: #fff;
+display:block;
+float:left;
+text-decoration:none;
+padding: 10px 0 10px 10px;
+margin:8px 8px 10px 8px;
+
+}
+.fts-pin-board-wrap:hover .hoverMask, .pinterest-single-thumb-wrap:hover .hoverMask {
+background: rgba(255,255,255,0.1);
+}
+h3.fts-pin-board-board_title {
+	-webkit-font-smoothing: antialiased !important;
+white-space: nowrap !important;
+overflow: hidden !important;
+line-height:normal !important;
+-ms-text-overflow: ellipsis;
+-o-text-overflow: ellipsis;
+text-overflow: ellipsis;
+color: #555 !important;
+display: block !important;
+font-size: 14px !important;
+font-weight: bold;
+height: 18px !important;
+margin: 0 3px 6px !important;
+padding:0 !important;
+position: relative !important;
+font-family: "Helvetica Neue", arial, sans-serif !important;
+}
+div.fts-pin-board-img-wrap {
+	position: relative;
+overflow: hidden;
+clear: both;
+height: 146px;
+width: 216px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.33) inset;
+-moz-box-shadow: 0 0 3px rgba(0,0,0,0.33) inset;
+box-shadow: 0 0 3px rgba(0,0,0,0.83) inset;
+
+} 
+.fts-pin-board-thumbs-wrap {
+    height:56px;
+}
+div.pinterest-single-thumb-wrap {
+    float:left; 
+margin-right: 4px;
+margin-top:4px;position:relative;
+}
+div.pinterest-single-thumb-wrap img {
+	-webkit-border-radius: 3px !important;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px !important;
+height: 51px !important;
+width: 51px !important;
+float: left !important;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) !important;
+}
+.fts-pin-board-img-wrap .hoverMask, .pinterest-single-thumb-wrap .hoverMask {
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.33) inset;
+-moz-box-shadow: 0 0 3px rgba(0,0,0,0.33) inset;
+box-shadow: 0 0 3px rgba(0,0,0,0.33) inset;
+bottom: 0;
+left: 0;
+position: absolute;
+right: 0;
+top: 0;
+}
+.fts-pin-board-wrap .fts-pin-board-pin-count {
+-webkit-font-smoothing: antialiased;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+-ms-border-radius: 2px;
+-o-border-radius: 2px;
+border-radius: 2px;
+-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2),0 1px 0px rgba(255,255,255,0.3);
+-moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.2),0 1px 0px rgba(255,255,255,0.3);
+box-shadow: inset 0 0 5px rgba(0,0,0,0.2),0 1px 0px rgba(255,255,255,0.3);
+text-shadow: 0 -1px 0 rgba(0,0,0,0.7);
+background-color: #000;
+background-color: rgba(68,68,68,0.7);
+bottom: 3px;
+color: #fff;
+padding: 3px 6px;
+position: absolute;
+right: 3px;
+font-family: "Helvetica Neue", arial, sans-serif !important;
+font-size: 12px !important;
+font-weight:bold;
+}
+
+
+
+.widget-area h3.fts-pin-board-board_title, .widget-area .fts-pin-board-thumbs-wrap {
+    display:none !important;
+}
+.widget-area div.fts-pin-board-img-wrap {
+	position: relative;
+overflow: hidden;
+clear: both;
+height: auto;
+width: auto; 
+} 
+.widget-area a.fts-pin-board-wrap {
+	width: 40%;	
+    padding: 6px;
+    margin:8px 5px 9px 8px;
+    border-radius: 1px !important;
+}
+.widget-area div.fts-pin-board-img-wrap {
+-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.11) inset !important;
+-moz-box-shadow: 0 0 1px rgba(0,0,0,0.11) inset;
+box-shadow: 0 0 0px rgba(0,0,0,0) inset !important;
+margin-bottom:0px
+
+
+}
+.widget-area .fts-pin-board-img-wrap .hoverMask, .pinterest-single-thumb-wrap .hoverMask {
+-webkit-box-shadow: 0 0 0px rgba(0,0,0,0.33) inset;
+-moz-box-shadow: 0 0 0px rgba(0,0,0,0.33) inset;
+box-shadow: 0 0 0px rgba(0,0,0,0.33) inset;
+}

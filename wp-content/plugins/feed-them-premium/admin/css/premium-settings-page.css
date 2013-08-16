@@ -1,0 +1,48 @@
+div.feed-them-social-admin-input-default {
+	display:none !important;
+}
+/*==============================================
+				Widgets Styles
+================================================*/
+.fts-label-input-wrap {
+	margin-bottom: 12px;	
+}
+.last {
+     margin-bottom:25px;   
+}
+.fts-label-input-wrap label {
+	font-size:12px;
+	color:#777;
+	display:block;
+	margin-bottom:3px;	
+}
+.fts-label-input-wrap input[type=text] {
+	padding: 5px 6px;
+	font-size:12px;
+	letter-spacing:1px;	
+}
+.fts-label-input-wrap select {
+	letter-spacing:1px;	
+	font-size:12px;
+}
+.widget h2.fts-widget-header-h2, .widget h2.fts-widget-header-h3 {
+     font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif;   
+}
+.widget .fts-widget-header-h2, .widget h2.fts-widget-header-h3 {
+     margin-top:0px;
+     padding-top:0px;  
+}
+.widget h2.fts-widget-header-h3 {
+     line-height:8px;
+     margin-bottom:12px;
+     font-size:19px;
+     color: rgb(194, 194, 194);
+     font-weight:bold;  
+}
+.slickremix-widget-header-wrap {
+     background: rgb(235, 235, 235) !important;  
+     border-radius:4px;
+     padding:8px 5px 1px 15px;
+     margin-bottom:10px; 
+     border:1px solid #FFF;
+}
