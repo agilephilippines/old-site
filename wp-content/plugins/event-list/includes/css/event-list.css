@@ -1,0 +1,98 @@
+/*
+a.rss-link {
+	display:block;
+	height:16px;
+	float:right;
+	background:transparent url(images/icon-rss.png) right top no-repeat;
+	padding-right:20px;
+	line-height:16px;
+}
+*/
+
+ul.event-list-view, ul.single-event-view {
+	list-style: none;
+	margin: 1em 0 1.5em 0;
+	padding: 0;
+}
+
+
+li.event {
+	clear: both;
+}
+
+.event-date {
+	white-space: nowrap;
+	float: left;
+	margin-bottom: 1.5em;
+}
+
+.event-list .multi-date {
+	background: url(../images/date-separator.png) center no-repeat;
+}
+
+.event-list .start-date, .event-list .end-date {
+	text-align: center;
+	width: 3.2em;
+	border-radius: 5px;
+	background-color: rgb(230,230,230);
+	overflow: hidden;
+}
+
+.event-list .start-date {
+	float: left;
+}
+
+.event-list .end-date {
+	margin-left: 3.8em;
+}
+
+.event-weekday {
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+.event-day {
+	font-size: 1.3em;
+	font-weight: bold;
+	line-height: 1em;
+	margin-bottom: -0.2em;
+}
+
+.event-month {
+	text-transform: uppercase;
+	font-size: 1.0em;
+	line-height: 1em;
+	padding: 0.4em 0 0.4em 0;
+}
+
+.event-year {
+	font-size: 0.8em;
+	line-height: 0.8em;
+	letter-spacing: 0.1em;
+	padding-bottom: 0.3em;
+}
+
+.multi-day {
+	margin: 0 0 0 7.5em;
+}
+
+.single-day {
+	margin: 0 0 0 3.8em;
+}
+
+.event-info h3 {
+	clear: none;
+}
+
+.event-time {
+	font-weight: bold;
+	padding-right: 0.8em;
+}
+
+.event-cat {
+	font-size: 0.95em;
+}
+
+.event-details {
+	font-size: 0.8em;
+}
