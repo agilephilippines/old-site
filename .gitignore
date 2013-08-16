@@ -1,3 +1,5 @@
 wp-config.php
 .DS_Store
-**/*.swp
+*.swp
+*.swo
+wp-content/uploads
