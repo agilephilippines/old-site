@@ -27,6 +27,6 @@
 	<!-- #colophon --></footer>
 
 <?php wp_footer(); ?>
-
+<?php include_once("analytics.php") ?>
 </body>
 </html>
